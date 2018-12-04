@@ -1,0 +1,20 @@
+{
+    "name": "arthur/tpallocine",
+    "description": "TP Allocine",
+    "authors": [
+        {
+            "name": "Arthuchaut",
+            "email": "arthur.audebrand@gmail.com"
+        }
+    ],
+    "minimum-stability": "RC",
+    "require": {
+        "enginr/enginr": "v1.0.1-alpha",
+        "pug-php/pug": "^3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "PDO\\": "lib/"
+        }
+    }
+}
